@@ -1,5 +1,6 @@
 <h1><%= @student.to_s %></h1>
 <% if @student.active == false %>
+<a href=<%= activate_student_path(@student.id)%>>123</a>
 <h2>This student is currently inactive. </h2>
 <% else %>
 <h2>This student is currently active. </h2>
