@@ -21,3 +21,4 @@ class StudentsController < ApplicationController
       @student = Student.find(params[:id])
     end
 end
+# comment 
